@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99165685e19f44d398ac8432fb90b8bd, type: 3}
+  m_Name: Universal Explosion Mapping
+  m_EditorClassIdentifier: 
+  mappingValues:
+  - damage: 5
+    amplitude: 5
+    impulse: 100
+    upwardsModifier: 0.5
+    minDistance: 0
+    maxDistance: 100

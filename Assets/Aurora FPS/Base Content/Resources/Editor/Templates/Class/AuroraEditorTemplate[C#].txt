@@ -1,0 +1,59 @@
+/* ================================================================
+   ---------------------------------------------------
+   Project   :    Aurora FPS
+   Publisher :    Infinite Dawn
+   Author    :    Tamerlan Favilevich
+   ---------------------------------------------------
+   Copyright © Tamerlan Favilevich 2020 All rights reserved.
+   ================================================================ */
+
+using AuroraFPSRuntime;
+using UnityEditor;
+using UnityEngine;
+
+namespace AuroraFPSEditor
+{
+    [CustomEditor(typeof(#CLASS_NAME#))]
+    public class #CLASS_NAME#Editor : AuroraEditor<#CLASS_NAME#>
+    {
+        /// <summary>
+        /// All required editor GUI properties.
+        /// </summary>
+        internal new static class ContentProperties
+        {
+            public readonly static GUIContent BaseProperties = new GUIContent("Base Properties");
+        }
+
+	    /// <summary>
+        /// Base serializedObject properties.
+        /// 
+        /// Implement this method to draw a custom properties.
+        /// </summary>
+        public override string GetHeaderName()
+        {
+            return "#HEADER_NAME#";
+        }
+
+        /// <summary>
+        /// This function is called when the object becomes enabled and active.
+        /// 
+        /// Implement this method to initialize properties.
+        /// </summary>
+        public override void OnInitializeProperties()
+        {
+            // INITIALIZE PROPERTIES HERE.
+        }
+
+        /// <summary>
+        /// Base serializedObject properties.
+        /// 
+        /// Implement this method to draw a custom properties.
+        /// </summary>
+        public override void OnBaseGUI()
+        {
+            BeginGroup(ContentProperties.BaseProperties);
+            DrawPropertiesExcluding(serializedObject, GetExcludingProperties());
+            EndGroup();
+        }
+    }
+}

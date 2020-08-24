@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aefa004a6e3664dc9aa2343d597449ae, type: 3}
+  m_Name: RGB5 Ammo [Item]
+  m_EditorClassIdentifier: 
+  id: dcb582bd9bae4b9686df84947e26
+  displayName: RGB-5
+  description: RGB-5 ammo.
+  sprite: {fileID: 21300022, guid: 5163ae49a0de665458bba61cd20c99b1, type: 3}
+  dropObject:
+    dropObject: {fileID: 0}
+    force: 25
+    soundEffect: {fileID: 0}
+    distance: 2
+    rotation: {x: 0, y: 0, z: 0}
+  damage: 5
+  impulse: 1.75
+  ballsVariance: 0
+  ballsNumber: 1
+  decalMapping: {fileID: 11400000, guid: d413b0502ab694a479116c42b5b93148, type: 2}

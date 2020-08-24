@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81920c8db40004454b83704a8fd97cc3, type: 3}
+  m_Name: Machine Gun [Item]
+  m_EditorClassIdentifier: 
+  id: 96770258a3b04000b8443e075026
+  displayName: Machine Gun
+  description: Machine Gun weapon.
+  sprite: {fileID: 0}
+  dropObject:
+    dropObject: {fileID: 6762542926560088301, guid: 7718bc6d882954b2eaf92d136712936b,
+      type: 3}
+    force: 5
+    soundEffect: {fileID: 0}
+    distance: 1.5
+    rotation: {x: 0, y: 0, z: 0}
+  group: Rifles

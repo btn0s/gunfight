@@ -1,0 +1,969 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 290b3df1f75ea20449a4cb1356001f7c, type: 3}
+  m_Name: Sniper Rifle [Recoil Mapping]
+  m_EditorClassIdentifier: 
+  mapping:
+    keys: 0100000002000000040000000101000040010000000100004101000041000000
+    values:
+    - verticalBulletSpread:
+        min: -0.5
+        max: 0.5
+        minLimit: -10
+        maxLimit: 10
+      horizontalBulletSpread:
+        min: -0.5
+        max: 0.5
+        minLimit: -10
+        maxLimit: 10
+      verticalRecoilImpulse:
+        min: -1.5
+        max: 0.5
+        minLimit: -10
+        maxLimit: 10
+      horizontalRecoilImpulse:
+        min: -0
+        max: 0.5
+        minLimit: -10
+        maxLimit: 10
+      clampVerticalRecoil:
+        min: 0
+        max: 60
+        minLimit: -180
+        maxLimit: 180
+      clampHorizontalRecoil:
+        min: 0
+        max: 0
+        minLimit: -180
+        maxLimit: 180
+      impulseInputCompensate: {x: 1, y: 1}
+      speedApplyImpulse: {x: 1, y: 1}
+      speedReturnImpulse: {x: 1, y: 1}
+      autoReturn: 1
+      randomVerticalCameraRecoil: 0
+      randomHorizontalCameraRecoil: 0
+      weaponKickbackProperty:
+        kickbackPosition: {x: 0.025, y: 0.025, z: -0.025}
+        positionDampTime: 20
+        positionSmooth: 30
+        kickbackRotation: {x: 0.1, y: 0.1, z: 0.1}
+        rotationDampTime: 20
+        rotationSmooth: 30
+      shake:
+        target: -1
+        positionSettings:
+          amplitude: 0.5
+          frequency: 5
+          duration: 0.2
+          blendOverLifetime:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.5
+              value: 0.5
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        rotationSettings:
+          amplitude: 20
+          frequency: 5
+          duration: 0.2
+          blendOverLifetime:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.5
+              value: 0.5
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+    - verticalBulletSpread:
+        min: -4.5
+        max: 4.5
+        minLimit: -10
+        maxLimit: 10
+      horizontalBulletSpread:
+        min: -4.5
+        max: 4.5
+        minLimit: -10
+        maxLimit: 10
+      verticalRecoilImpulse:
+        min: -1.5
+        max: 0.5
+        minLimit: -10
+        maxLimit: 10
+      horizontalRecoilImpulse:
+        min: -0
+        max: 0.5
+        minLimit: -10
+        maxLimit: 10
+      clampVerticalRecoil:
+        min: 0
+        max: 60
+        minLimit: -180
+        maxLimit: 180
+      clampHorizontalRecoil:
+        min: 0
+        max: 0
+        minLimit: -180
+        maxLimit: 180
+      impulseInputCompensate: {x: 1, y: 1}
+      speedApplyImpulse: {x: 1, y: 1}
+      speedReturnImpulse: {x: 1, y: 1}
+      autoReturn: 1
+      randomVerticalCameraRecoil: 0
+      randomHorizontalCameraRecoil: 0
+      weaponKickbackProperty:
+        kickbackPosition: {x: 0.025, y: 0.025, z: -0.025}
+        positionDampTime: 15
+        positionSmooth: 30
+        kickbackRotation: {x: 0.5, y: 0.5, z: 0.5}
+        rotationDampTime: 15
+        rotationSmooth: 30
+      shake:
+        target: -1
+        positionSettings:
+          amplitude: 0.5
+          frequency: 5
+          duration: 0.2
+          blendOverLifetime:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.5
+              value: 0.5
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        rotationSettings:
+          amplitude: 20
+          frequency: 5
+          duration: 0.2
+          blendOverLifetime:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.5
+              value: 0.5
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+    - verticalBulletSpread:
+        min: -5.5
+        max: 5.5
+        minLimit: -10
+        maxLimit: 10
+      horizontalBulletSpread:
+        min: -5.5
+        max: 5.5
+        minLimit: -10
+        maxLimit: 10
+      verticalRecoilImpulse:
+        min: -1.5
+        max: 0.5
+        minLimit: -10
+        maxLimit: 10
+      horizontalRecoilImpulse:
+        min: -0
+        max: 0.5
+        minLimit: -10
+        maxLimit: 10
+      clampVerticalRecoil:
+        min: 0
+        max: 60
+        minLimit: -180
+        maxLimit: 180
+      clampHorizontalRecoil:
+        min: 0
+        max: 0
+        minLimit: -180
+        maxLimit: 180
+      impulseInputCompensate: {x: 1, y: 1}
+      speedApplyImpulse: {x: 1, y: 1}
+      speedReturnImpulse: {x: 1, y: 1}
+      autoReturn: 1
+      randomVerticalCameraRecoil: 0
+      randomHorizontalCameraRecoil: 0
+      weaponKickbackProperty:
+        kickbackPosition: {x: 0.025, y: 0.025, z: -0.025}
+        positionDampTime: 20
+        positionSmooth: 30
+        kickbackRotation: {x: 0.2, y: 0, z: 0.2}
+        rotationDampTime: 20
+        rotationSmooth: 30
+      shake:
+        target: -1
+        positionSettings:
+          amplitude: 0.5
+          frequency: 5
+          duration: 0.3
+          blendOverLifetime:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.5
+              value: 0.5
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        rotationSettings:
+          amplitude: 20
+          frequency: 5
+          duration: 0.2
+          blendOverLifetime:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.5
+              value: 0.5
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+    - verticalBulletSpread:
+        min: 0
+        max: 0
+        minLimit: -10
+        maxLimit: 10
+      horizontalBulletSpread:
+        min: 0
+        max: 0
+        minLimit: -10
+        maxLimit: 10
+      verticalRecoilImpulse:
+        min: -1.5
+        max: 0.3
+        minLimit: -10
+        maxLimit: 10
+      horizontalRecoilImpulse:
+        min: -0
+        max: 0.25
+        minLimit: -10
+        maxLimit: 10
+      clampVerticalRecoil:
+        min: 0
+        max: 60
+        minLimit: -180
+        maxLimit: 180
+      clampHorizontalRecoil:
+        min: 0
+        max: 0
+        minLimit: -180
+        maxLimit: 180
+      impulseInputCompensate: {x: 1, y: 1}
+      speedApplyImpulse: {x: 1, y: 1}
+      speedReturnImpulse: {x: 1, y: 1}
+      autoReturn: 1
+      randomVerticalCameraRecoil: 0
+      randomHorizontalCameraRecoil: 0
+      weaponKickbackProperty:
+        kickbackPosition: {x: 0.01, y: 0.01, z: -0.01}
+        positionDampTime: 20
+        positionSmooth: 30
+        kickbackRotation: {x: 0, y: 0, z: 0}
+        rotationDampTime: 0
+        rotationSmooth: 0
+      shake:
+        target: -1
+        positionSettings:
+          amplitude: 0.5
+          frequency: 7
+          duration: 0.2
+          blendOverLifetime:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.5
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        rotationSettings:
+          amplitude: 20
+          frequency: 5
+          duration: 0.2
+          blendOverLifetime:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.5
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+    - verticalBulletSpread:
+        min: -0.8
+        max: 0.8
+        minLimit: -10
+        maxLimit: 10
+      horizontalBulletSpread:
+        min: -0.8
+        max: 0.8
+        minLimit: -10
+        maxLimit: 10
+      verticalRecoilImpulse:
+        min: -1.5
+        max: 0.3
+        minLimit: -10
+        maxLimit: 10
+      horizontalRecoilImpulse:
+        min: -0
+        max: 0.2
+        minLimit: -10
+        maxLimit: 10
+      clampVerticalRecoil:
+        min: 0
+        max: 180
+        minLimit: -180
+        maxLimit: 180
+      clampHorizontalRecoil:
+        min: 0
+        max: 0
+        minLimit: -180
+        maxLimit: 180
+      impulseInputCompensate: {x: 1, y: 1}
+      speedApplyImpulse: {x: 1, y: 1}
+      speedReturnImpulse: {x: 1, y: 1}
+      autoReturn: 1
+      randomVerticalCameraRecoil: 0
+      randomHorizontalCameraRecoil: 0
+      weaponKickbackProperty:
+        kickbackPosition: {x: 0.01, y: 0.01, z: -0.01}
+        positionDampTime: 20
+        positionSmooth: 30
+        kickbackRotation: {x: 0, y: 0, z: 0}
+        rotationDampTime: 0
+        rotationSmooth: 0
+      shake:
+        target: -1
+        positionSettings:
+          amplitude: 0.5
+          frequency: 5
+          duration: 0.2
+          blendOverLifetime:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.5
+              value: 0.5
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        rotationSettings:
+          amplitude: 20
+          frequency: 5
+          duration: 0.2
+          blendOverLifetime:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.5
+              value: 0.5
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+    - verticalBulletSpread:
+        min: -1
+        max: 1
+        minLimit: -10
+        maxLimit: 10
+      horizontalBulletSpread:
+        min: -1
+        max: 1
+        minLimit: -10
+        maxLimit: 10
+      verticalRecoilImpulse:
+        min: -1.5
+        max: 0.5
+        minLimit: -10
+        maxLimit: 10
+      horizontalRecoilImpulse:
+        min: -0
+        max: 0.5
+        minLimit: -10
+        maxLimit: 10
+      clampVerticalRecoil:
+        min: 0
+        max: 60
+        minLimit: -180
+        maxLimit: 180
+      clampHorizontalRecoil:
+        min: 0
+        max: 0
+        minLimit: -180
+        maxLimit: 180
+      impulseInputCompensate: {x: 1, y: 1}
+      speedApplyImpulse: {x: 1, y: 1}
+      speedReturnImpulse: {x: 1, y: 1}
+      autoReturn: 1
+      randomVerticalCameraRecoil: 0
+      randomHorizontalCameraRecoil: 0
+      weaponKickbackProperty:
+        kickbackPosition: {x: 0.01, y: 0.01, z: -0.01}
+        positionDampTime: 20
+        positionSmooth: 30
+        kickbackRotation: {x: 0, y: 0, z: 0}
+        rotationDampTime: 0
+        rotationSmooth: 0
+      shake:
+        target: -1
+        positionSettings:
+          amplitude: 0.5
+          frequency: 5
+          duration: 0.2
+          blendOverLifetime:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.5
+              value: 0.5
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        rotationSettings:
+          amplitude: 20
+          frequency: 5
+          duration: 0.2
+          blendOverLifetime:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.5
+              value: 0.5
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+    - verticalBulletSpread:
+        min: 0
+        max: 0
+        minLimit: -10
+        maxLimit: 10
+      horizontalBulletSpread:
+        min: 0
+        max: 0
+        minLimit: -10
+        maxLimit: 10
+      verticalRecoilImpulse:
+        min: -1.5
+        max: 0.2
+        minLimit: -10
+        maxLimit: 10
+      horizontalRecoilImpulse:
+        min: -0
+        max: 0.2
+        minLimit: -10
+        maxLimit: 10
+      clampVerticalRecoil:
+        min: 0
+        max: 60
+        minLimit: -180
+        maxLimit: 180
+      clampHorizontalRecoil:
+        min: 0
+        max: 0
+        minLimit: -180
+        maxLimit: 180
+      impulseInputCompensate: {x: 1, y: 1}
+      speedApplyImpulse: {x: 1, y: 1}
+      speedReturnImpulse: {x: 1, y: 1}
+      autoReturn: 1
+      randomVerticalCameraRecoil: 0
+      randomHorizontalCameraRecoil: 0
+      weaponKickbackProperty:
+        kickbackPosition: {x: 0.01, y: 0.01, z: -0.01}
+        positionDampTime: 20
+        positionSmooth: 30
+        kickbackRotation: {x: 0, y: 0, z: 0}
+        rotationDampTime: 0
+        rotationSmooth: 0
+      shake:
+        target: -1
+        positionSettings:
+          amplitude: 0.5
+          frequency: 5
+          duration: 0.2
+          blendOverLifetime:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.5
+              value: 0.5
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        rotationSettings:
+          amplitude: 20
+          frequency: 5
+          duration: 0.2
+          blendOverLifetime:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.5
+              value: 0.5
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+    - verticalBulletSpread:
+        min: -0.5
+        max: 0.5
+        minLimit: -10
+        maxLimit: 10
+      horizontalBulletSpread:
+        min: -0.5
+        max: 0.5
+        minLimit: -10
+        maxLimit: 10
+      verticalRecoilImpulse:
+        min: -1.5
+        max: 1.5
+        minLimit: -10
+        maxLimit: 10
+      horizontalRecoilImpulse:
+        min: -0
+        max: 0
+        minLimit: -10
+        maxLimit: 10
+      clampVerticalRecoil:
+        min: -5
+        max: 5
+        minLimit: -180
+        maxLimit: 180
+      clampHorizontalRecoil:
+        min: -2
+        max: 2
+        minLimit: -180
+        maxLimit: 180
+      impulseInputCompensate: {x: 1, y: 1}
+      speedApplyImpulse: {x: 1, y: 1}
+      speedReturnImpulse: {x: 1, y: 1}
+      autoReturn: 1
+      randomVerticalCameraRecoil: 0
+      randomHorizontalCameraRecoil: 0
+      weaponKickbackProperty:
+        kickbackPosition: {x: 0.05, y: 0.05, z: 0.01}
+        positionDampTime: 6
+        positionSmooth: 20
+        kickbackRotation: {x: 1, y: 1, z: 1}
+        rotationDampTime: 9
+        rotationSmooth: 20
+      shake:
+        target: -1
+        positionSettings:
+          amplitude: 0.5
+          frequency: 5
+          duration: 0.3
+          blendOverLifetime:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.5
+              value: 0.5
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        rotationSettings:
+          amplitude: 20
+          frequency: 5
+          duration: 0.2
+          blendOverLifetime:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.5
+              value: 0.5
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4

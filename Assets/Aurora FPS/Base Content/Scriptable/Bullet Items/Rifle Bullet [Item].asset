@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aefa004a6e3664dc9aa2343d597449ae, type: 3}
+  m_Name: Rifle Bullet [Item]
+  m_EditorClassIdentifier: 
+  id: 4b79dc048f79416c9c8a968cda2e
+  displayName: 5x56
+  description: Rifle Bullet
+  sprite: {fileID: 21300012, guid: 5163ae49a0de665458bba61cd20c99b1, type: 3}
+  dropObject:
+    dropObject: {fileID: 0}
+    force: 25
+    soundEffect: {fileID: 0}
+    distance: 2
+    rotation: {x: 0, y: 0, z: 0}
+  damage: 15
+  impulse: 50
+  ballsVariance: 0
+  ballsNumber: 1
+  decalMapping: {fileID: 11400000, guid: d413b0502ab694a479116c42b5b93148, type: 2}
